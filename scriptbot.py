@@ -76,7 +76,7 @@ MEETING_END_TIME = (18, 30)
 def offset(hour, minute = 0):
     nowtime = tmtime.gmtime()
     nexttime = [item for item in nowtime]
-    if nowtime.tm_hour >= hour and nowtime.tm_min >= minute:
+    if nowtime.tm_hour > hour or (nowtime.tm_hour == hour and nowtime.tm_min >= minute):
         nexttime[2] += 1
     nexttime[3] = hour
     nexttime[4] = minute
