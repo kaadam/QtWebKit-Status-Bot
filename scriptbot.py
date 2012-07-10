@@ -16,6 +16,8 @@ SERVER = "chat.freenode.net"
 PORT = 8001
 CHANNEL = "#qtwebkit"
 
+logging.basicConfig(format='%(asctime)s %(levelname)s %(message)s', filename='status.log', filemode='w')
+
 # SERVER = "10.60.1.22"
 # PORT = 6667
 # CHANNEL = "#webkit"
