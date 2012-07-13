@@ -161,11 +161,12 @@ class StatusBotClient(irc.IRCClient):
         logging.warning("Joining Channel: %s" % self.factory.channel)
         self.join(self.factory.channel)
 
-        timeleft = offset(*MEETING_HOUR)
-        reactor.callLater(timeleft, self._status_command)
-        logging.warning("Time left till @status start: %d" % (timeleft))
-        reactor.callLater(offset(*MEETING_REMIND_HOUR), self._remind_missing_participants)
-        reactor.callLater(offset(*MEETING_END_TIME), self._end_meeting)
+        if datetime.today().weekday() < 5:
+            timeleft = offset(*MEETING_HOUR)
+            reactor.callLater(timeleft, self._status_command)
+            logging.warning("Time left till @status start: %d" % (timeleft))
+            reactor.callLater(offset(*MEETING_REMIND_HOUR), self._remind_missing_participants)
+            reactor.callLater(offset(*MEETING_END_TIME), self._end_meeting)
 
     def _status_command(self):
         channel = self.factory.channel
