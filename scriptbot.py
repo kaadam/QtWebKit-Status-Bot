@@ -23,7 +23,7 @@ logging.basicConfig(format='%(asctime)s %(levelname)s %(message)s', filename='st
 # CHANNEL = "#webkit"
 
 PEOPLE = [
-    "abinader"
+    "abinader",
     "cmarcelo",
     "darktears",
     "hugopl",
@@ -45,7 +45,7 @@ PEOPLE = [
     "carewolf",
     "kenneth_",
     "laknudse",
-    "noamr"
+    "noamr",
     "mibrunin",
     "mulvad",
     "zalan",
