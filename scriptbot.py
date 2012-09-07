@@ -41,13 +41,10 @@ PEOPLE = [
     "tronical",
     "zalbisser",
 
-    "ahf",
     "carewolf",
     "kenneth_",
-    "laknudse",
     "noamr",
     "mibrunin",
-    "mulvad",
     "zalan",
 
     "Ossy",
