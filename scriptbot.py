@@ -48,8 +48,6 @@ PEOPLE = [
     "zalan",
 
     "Ossy",
-    "Zoltan",
-    "abalazs",
     "azbest_hu",
     "dicska",
     "kadam",
@@ -58,7 +56,6 @@ PEOPLE = [
     "hnandor",
     "loki04",
     "reni",
-    "rtakacs",
     "stampho",
     "szledan",
     "tczene",
