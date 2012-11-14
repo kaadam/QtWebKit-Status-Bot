@@ -37,7 +37,6 @@ PEOPLE = [
     "bbandix",
     "elproxy",
     "jturcotte",
-    "torarne",
     "tronical",
     "zalbisser",
 
