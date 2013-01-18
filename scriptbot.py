@@ -36,19 +36,9 @@ PEOPLE = [
     "mibrunin",
     "zalan",
 
-    "Ossy",
     "azbest_hu",
-    "dicska",
     "kadam",
-    "kbalazs",
-    "kkristof",
-    "hnandor",
-    "loki04",
-    "reni",
     "stampho",
-    "szledan",
-    "tczene",
-    "zherczeg",
     ]
 
 SMTP = "smtp.gmail.com"
