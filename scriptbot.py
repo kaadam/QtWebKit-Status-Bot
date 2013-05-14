@@ -35,6 +35,7 @@ PEOPLE = [
     "mibrunin",
     "zalan",
 
+    "abrhm"
     "azbest_hu",
     "kadam",
     "stampho",
